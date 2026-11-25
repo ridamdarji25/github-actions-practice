@@ -12,4 +12,4 @@ b = float(input("Second number: "))
 
 symbol, action = operations[choice]
 print(f"{a} {symbol} {b} = {action(a, b)}")   
-#Added to check Automation
+#Added to check Final Linting Push Automation
