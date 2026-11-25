@@ -1,0 +1,9 @@
+name: Hello
+on: 
+  workflow_dispatch
+jobs:
+  say-hello:
+    runs-on: ubuntu-slim
+    steps:
+      - name: Say hello to everyone
+        run: echo "Hello Witnesses"
